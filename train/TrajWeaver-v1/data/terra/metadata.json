@@ -1,0 +1,20 @@
+{
+  "annotation_path": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/terra/annotations.jsonl",
+  "api_calls": false,
+  "append_only": true,
+  "data_manifest": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/manifest.json",
+  "generated_at_utc": "2026-09-10T01:24:54.792866+00:00",
+  "label_source": "terra_direct",
+  "prompt_version": "trajweaver-v1-terra-direct-v1",
+  "public_only_fields": [
+    "scenario",
+    "history",
+    "target"
+  ],
+  "seed": 42,
+  "source_files": {
+    "dev": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/weaver_sft/dev.scenarios-300.jsonl",
+    "train": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/weaver_sft/train.scenarios-2000.jsonl"
+  },
+  "teacher_model": "codex_gpt-5.6-terra"
+}

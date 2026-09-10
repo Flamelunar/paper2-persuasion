@@ -1,0 +1,31 @@
+{
+  "annotation_status": "bootstrap_only",
+  "annotations": null,
+  "canonical_dev": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/dev.jsonl",
+  "canonical_train": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/train.jsonl",
+  "canonical_train_scenarios": 5279,
+  "data_contract": {
+    "bootstrap_trigger_policy": "turn_1=SKIP; later_turns=INVOKE; smoke_only",
+    "full_scale_selection": "data/lora/scenario_ids/train.scenarios-5279.txt",
+    "trigger_component": "trigger_lora + binary_skip_invoke_head",
+    "weaver_component": "weaver_lora + latent_queries + projections + controller",
+    "weaver_teacher_labels_required_for_main_run": [
+      "belief_state",
+      "desire_state",
+      "goal_alignment",
+      "trigger_action"
+    ]
+  },
+  "recommended_first_run": "2000 training scenarios",
+  "seed": 42,
+  "selected_dev_scenarios": 300,
+  "selected_train_scenarios": 2000,
+  "trigger_dev": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/trigger_sft/dev.scenarios-300.jsonl",
+  "trigger_dev_turns": 1087,
+  "trigger_train": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/trigger_sft/train.scenarios-2000.jsonl",
+  "trigger_train_turns": 7269,
+  "weaver_dev": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/weaver_sft/dev.scenarios-300.jsonl",
+  "weaver_dev_turns": 1087,
+  "weaver_train": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/data/lora/weaver_sft/train.scenarios-2000.jsonl",
+  "weaver_train_turns": 7269
+}

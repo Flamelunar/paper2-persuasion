@@ -1,0 +1,287 @@
+{
+  "schema_version": "trajweaver_ablation_report_v1",
+  "manifest": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/ablations/manifests/eval100_seed20260910.json",
+  "selection_sha256": "849bd4bd1111ca49e931b722862fd838c981555f5bf17e1aab61341a4e3af78d",
+  "n": 100,
+  "baseline_for_deltas": "r0-no-memory",
+  "summaries": {
+    "public-zero-shot": {
+      "n": 100,
+      "success_percent": 41.0,
+      "acceptance_percent": 71.2,
+      "acr_percent": 26.0,
+      "unf_percent": 82.25,
+      "groundedness_percent": 58.25,
+      "gdr_percent": 10.0,
+      "mean_generated_tokens_per_turn": 58.86387434554974,
+      "i_understand_rate_percent": 14.921465968586388,
+      "invoke_rate_percent": 0.0,
+      "memory_active_rate_percent": 0.0,
+      "mean_memory_tokens": 0.0
+    },
+    "legacy-v1": {
+      "n": 100,
+      "success_percent": 37.0,
+      "acceptance_percent": 69.0,
+      "acr_percent": 28.0,
+      "unf_percent": 75.75,
+      "groundedness_percent": 60.5,
+      "gdr_percent": 5.0,
+      "mean_generated_tokens_per_turn": 47.734375,
+      "i_understand_rate_percent": 54.947916666666664,
+      "invoke_rate_percent": 73.95833333333333,
+      "memory_active_rate_percent": 100.0,
+      "mean_memory_tokens": 16.0
+    },
+    "r0-no-memory": {
+      "n": 100,
+      "success_percent": 35.0,
+      "acceptance_percent": 71.4,
+      "acr_percent": 27.0,
+      "unf_percent": 79.25,
+      "groundedness_percent": 56.5,
+      "gdr_percent": 9.0,
+      "mean_generated_tokens_per_turn": 63.910526315789475,
+      "i_understand_rate_percent": 15.0,
+      "invoke_rate_percent": 0.0,
+      "memory_active_rate_percent": 0.0,
+      "mean_memory_tokens": 0.0
+    },
+    "g8-static-goal": {
+      "n": 100,
+      "success_percent": 29.0,
+      "acceptance_percent": 62.2,
+      "acr_percent": 25.0,
+      "unf_percent": 71.75,
+      "groundedness_percent": 62.25,
+      "gdr_percent": 17.0,
+      "mean_generated_tokens_per_turn": 43.94344473007712,
+      "i_understand_rate_percent": 5.912596401028278,
+      "invoke_rate_percent": 74.293059125964,
+      "memory_active_rate_percent": 100.0,
+      "mean_memory_tokens": 8.0
+    },
+    "g8bd8-always": {
+      "n": 100,
+      "success_percent": 36.0,
+      "acceptance_percent": 69.4,
+      "acr_percent": 18.0,
+      "unf_percent": 76.75,
+      "groundedness_percent": 59.25,
+      "gdr_percent": 7.0,
+      "mean_generated_tokens_per_turn": 48.01033591731266,
+      "i_understand_rate_percent": 52.97157622739018,
+      "invoke_rate_percent": 100.0,
+      "memory_active_rate_percent": 100.0,
+      "mean_memory_tokens": 16.0
+    },
+    "g8bd8-trigger-strict": {
+      "n": 100,
+      "success_percent": 29.0,
+      "acceptance_percent": 66.4,
+      "acr_percent": 19.0,
+      "unf_percent": 74.25,
+      "groundedness_percent": 57.0,
+      "gdr_percent": 10.0,
+      "mean_generated_tokens_per_turn": 57.21875,
+      "i_understand_rate_percent": 44.270833333333336,
+      "invoke_rate_percent": 73.95833333333333,
+      "memory_active_rate_percent": 73.95833333333333,
+      "mean_memory_tokens": 11.833333333333334
+    }
+  },
+  "delta_vs_r0_no_memory": {
+    "public-zero-shot": {
+      "success": {
+        "mean": 0.06,
+        "ci95_low": -0.06,
+        "ci95_high": 0.18
+      },
+      "acceptance": {
+        "mean": -0.2,
+        "ci95_low": -4.6,
+        "ci95_high": 4.2
+      },
+      "acr": {
+        "mean": -1.0,
+        "ci95_low": -11.0,
+        "ci95_high": 9.0
+      },
+      "unf": {
+        "mean": 3.0,
+        "ci95_low": -0.5,
+        "ci95_high": 6.5
+      },
+      "groundedness": {
+        "mean": 1.75,
+        "ci95_low": -2.75,
+        "ci95_high": 6.0
+      },
+      "gdr": {
+        "mean": 1.0,
+        "ci95_low": -7.0,
+        "ci95_high": 9.0
+      }
+    },
+    "legacy-v1": {
+      "success": {
+        "mean": 0.02,
+        "ci95_low": -0.09,
+        "ci95_high": 0.13
+      },
+      "acceptance": {
+        "mean": -2.4,
+        "ci95_low": -6.8,
+        "ci95_high": 2.0
+      },
+      "acr": {
+        "mean": 1.0,
+        "ci95_low": -9.0,
+        "ci95_high": 12.0
+      },
+      "unf": {
+        "mean": -3.5,
+        "ci95_low": -7.25,
+        "ci95_high": 0.25
+      },
+      "groundedness": {
+        "mean": 4.0,
+        "ci95_low": -1.0,
+        "ci95_high": 9.0
+      },
+      "gdr": {
+        "mean": -4.0,
+        "ci95_low": -11.0,
+        "ci95_high": 3.0
+      }
+    },
+    "r0-no-memory": {
+      "success": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "acceptance": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "acr": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "unf": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "groundedness": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "gdr": {
+        "mean": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      }
+    },
+    "g8-static-goal": {
+      "success": {
+        "mean": -0.06,
+        "ci95_low": -0.17,
+        "ci95_high": 0.04
+      },
+      "acceptance": {
+        "mean": -9.2,
+        "ci95_low": -15.0,
+        "ci95_high": -3.8
+      },
+      "acr": {
+        "mean": -2.0,
+        "ci95_low": -12.0,
+        "ci95_high": 8.0
+      },
+      "unf": {
+        "mean": -7.5,
+        "ci95_low": -11.25,
+        "ci95_high": -3.75
+      },
+      "groundedness": {
+        "mean": 5.75,
+        "ci95_low": 0.25,
+        "ci95_high": 11.0
+      },
+      "gdr": {
+        "mean": 8.0,
+        "ci95_low": 0.0,
+        "ci95_high": 16.0
+      }
+    },
+    "g8bd8-always": {
+      "success": {
+        "mean": 0.01,
+        "ci95_low": -0.09,
+        "ci95_high": 0.11
+      },
+      "acceptance": {
+        "mean": -2.0,
+        "ci95_low": -7.0,
+        "ci95_high": 2.8
+      },
+      "acr": {
+        "mean": -9.0,
+        "ci95_low": -18.0,
+        "ci95_high": 0.0
+      },
+      "unf": {
+        "mean": -2.5,
+        "ci95_low": -6.0,
+        "ci95_high": 1.25
+      },
+      "groundedness": {
+        "mean": 2.75,
+        "ci95_low": -2.0,
+        "ci95_high": 7.75
+      },
+      "gdr": {
+        "mean": -2.0,
+        "ci95_low": -9.0,
+        "ci95_high": 5.0
+      }
+    },
+    "g8bd8-trigger-strict": {
+      "success": {
+        "mean": -0.06,
+        "ci95_low": -0.15,
+        "ci95_high": 0.03
+      },
+      "acceptance": {
+        "mean": -5.0,
+        "ci95_low": -9.8,
+        "ci95_high": -0.4
+      },
+      "acr": {
+        "mean": -8.0,
+        "ci95_low": -18.0,
+        "ci95_high": 2.0
+      },
+      "unf": {
+        "mean": -5.0,
+        "ci95_low": -8.5,
+        "ci95_high": -1.75
+      },
+      "groundedness": {
+        "mean": 0.5,
+        "ci95_low": -4.0,
+        "ci95_high": 5.0
+      },
+      "gdr": {
+        "mean": 1.0,
+        "ci95_low": -7.0,
+        "ci95_high": 9.0
+      }
+    }
+  }
+}

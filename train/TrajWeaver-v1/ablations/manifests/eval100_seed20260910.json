@@ -1,0 +1,616 @@
+{
+  "schema_version": "trajweaver_ablation_manifest_v1",
+  "dataset": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/dataset/CToMPersu_Eval/CToMPersu_Eval.json",
+  "dataset_size": 525,
+  "dataset_sha256": "9321734ec0249c195d266243021672a47a9cbd2ffeb77c63921ec371cb98235c",
+  "sampling": {
+    "kind": "random_sample_sorted",
+    "seed": 20260910,
+    "size": 100
+  },
+  "source_indices": [
+    4,
+    15,
+    31,
+    33,
+    47,
+    58,
+    61,
+    72,
+    78,
+    79,
+    86,
+    93,
+    108,
+    111,
+    112,
+    113,
+    118,
+    121,
+    122,
+    123,
+    128,
+    132,
+    133,
+    140,
+    143,
+    161,
+    165,
+    167,
+    171,
+    178,
+    180,
+    191,
+    193,
+    197,
+    220,
+    223,
+    227,
+    229,
+    235,
+    243,
+    246,
+    249,
+    252,
+    257,
+    259,
+    260,
+    263,
+    264,
+    267,
+    268,
+    272,
+    281,
+    283,
+    287,
+    290,
+    294,
+    298,
+    304,
+    310,
+    313,
+    317,
+    320,
+    321,
+    325,
+    342,
+    344,
+    346,
+    351,
+    352,
+    364,
+    373,
+    374,
+    380,
+    386,
+    388,
+    389,
+    394,
+    395,
+    398,
+    404,
+    407,
+    414,
+    416,
+    421,
+    424,
+    426,
+    442,
+    444,
+    450,
+    452,
+    456,
+    457,
+    464,
+    470,
+    488,
+    491,
+    493,
+    513,
+    517,
+    523
+  ],
+  "rows": [
+    {
+      "source_index": 4,
+      "scenario_hash": "4a77743ecaf0d0ef067b153f8a3f86df71503207e0742b82327d1a938f8e1ef4",
+      "goal": "convince Li Hua to learn programming by sharing a soul-chicken-soup story of a programmer who overcame failure in sports"
+    },
+    {
+      "source_index": 15,
+      "scenario_hash": "c66c044bd627be27a3a3a077d596cbd50958e7c510261bd2a9ce62cc111e91f7",
+      "goal": "persuade Sarah that wearing a power suit promotes gender equality and is fashionable"
+    },
+    {
+      "source_index": 31,
+      "scenario_hash": "1d87e138cd3b13e7f1b9b51b73ae2608cd704f71c3f41d79f0bb5cf571ebd140",
+      "goal": "persuade Emily to buy the crystal necklace"
+    },
+    {
+      "source_index": 33,
+      "scenario_hash": "0ae00067a08dac29ee70d56bde1f260ce67bf6952e09a20dad902ea9aea71104",
+      "goal": "persuade Sam to dress in a 1920s style for the party"
+    },
+    {
+      "source_index": 47,
+      "scenario_hash": "f6a70d4539a347a04a6492b511a3696692078d8f89bd85efe8f4f8c5136e70da",
+      "goal": "persuade Tom to take the educational innovation course"
+    },
+    {
+      "source_index": 58,
+      "scenario_hash": "4e6cadf17e49805e4e0dc48af2437cc71f56ee4d81f99d0f801b7716c20f49eb",
+      "goal": "persuade Bob to adopt better credit card management practices and improve his business negotiation skills"
+    },
+    {
+      "source_index": 61,
+      "scenario_hash": "f87ef71a11f6992cc7f9632396cb2efb2e6d2732f82aaa0f4b6db6aad48b8565",
+      "goal": "persuade CEO John to invest in TimeMaster software for his business"
+    },
+    {
+      "source_index": 72,
+      "scenario_hash": "4ad1e7e07cb3ae86e24db53b68b27659c55599150e7d7d91c571c10abac4c7e0",
+      "goal": "persuade Susan to implement a marketing campaign focusing on safety and delivery services"
+    },
+    {
+      "source_index": 78,
+      "scenario_hash": "c5753308cb13b58a48b268f2c1e45ceff3d231a8ca5cff3ce1efe03440390a89",
+      "goal": "persuade Jane to organize a tree-planting event using drone technology"
+    },
+    {
+      "source_index": 79,
+      "scenario_hash": "012f8a6475d49535720c1e0d4f09a7edb811b8531c5fa66f8f6d27414084294f",
+      "goal": "convince Wang Jie to support and invest in the eco-friendly startup"
+    },
+    {
+      "source_index": 86,
+      "scenario_hash": "44d0c0d888d7c8004119c67b3f0e011fd50fc5fd04d9b99be753c8077d9d6410",
+      "goal": "persuade Tom to support the installation of air quality monitoring devices"
+    },
+    {
+      "source_index": 93,
+      "scenario_hash": "bfcb391e025080db6d8e745c2e20c75f029cb3746782f875adc8153cd7505f9b",
+      "goal": "persuade Jane to use public transportation instead of buying a third car"
+    },
+    {
+      "source_index": 108,
+      "scenario_hash": "f21092d68ff55c46e7b892789572467c7374a49c01c7f7fcce5be79f7c604482",
+      "goal": "persuade John to restore the old theater using recycled materials"
+    },
+    {
+      "source_index": 111,
+      "scenario_hash": "7f6a6cdc8df70648da4a5c14f627b79f3423b46d0351a162b43ffc8c45b2bb57",
+      "goal": "persuade Emma to develop a game based on exploring cultural relics and historic sites"
+    },
+    {
+      "source_index": 112,
+      "scenario_hash": "c83f93f45255f9cda587efdfe4851b1fdf20e5405a1e45ae04bc5bb7c1b0f861",
+      "goal": "persuade Chris to invest in the cultural exchange program"
+    },
+    {
+      "source_index": 113,
+      "scenario_hash": "fe16629289cfd4a8ff8a4978d029fae45509a0a36e84566479ccd807183aeecf",
+      "goal": "persuade Emma to choose Spain for their family vacation"
+    },
+    {
+      "source_index": 118,
+      "scenario_hash": "d8822a8241bf355ec67383eed7d0bbc0ea03126b0ac4375e6ac9e7fc3230e522",
+      "goal": "persuade Aiden to visit the ancient castle and create a handmade journal"
+    },
+    {
+      "source_index": 121,
+      "scenario_hash": "e2e6ad6fe1f1b3f40f53b68f0ef190f56e906254d5d5a962b18e0595513e1572",
+      "goal": "persuade John to join the hiking trip"
+    },
+    {
+      "source_index": 122,
+      "scenario_hash": "b8178eabed8ef1dd20a5ea8ee129e98233c495f66432a18f388c963eb14ff71e",
+      "goal": "persuade the city council to invest in an earthquake early warning system"
+    },
+    {
+      "source_index": 123,
+      "scenario_hash": "c35a373470b4795eec47856c2bb63e60730c8ad8e4aedd153b6c3dbf782f1dbf",
+      "goal": "persuade Xiaofang to choose the safer architectural design with smaller windows"
+    },
+    {
+      "source_index": 128,
+      "scenario_hash": "272a8bff7d884075a5de71e9399f3bf9cb82813073d9343f9d99f9d446d68487",
+      "goal": "persuade Edward to invest in the new website design for public safety"
+    },
+    {
+      "source_index": 132,
+      "scenario_hash": "cd4b7aa70f79c1778ebb15a6507df9916e074d8d8d32ee6c9af6d821e9911e6d",
+      "goal": "persuade Dave to install the home safety system"
+    },
+    {
+      "source_index": 133,
+      "scenario_hash": "c2b9546036f77117ef5b0b40ef3674f97a797ca08f92b7e0fb68b08adb421f32",
+      "goal": "persuade Caroline that the neighborhood is safe for Tim to walk home"
+    },
+    {
+      "source_index": 140,
+      "scenario_hash": "a327f3fa3415405ce7e147c5c1b9b817782fceaeeeedcb50fd8f5de9ec734d78",
+      "goal": "persuade John to attend the folk dance workshop"
+    },
+    {
+      "source_index": 143,
+      "scenario_hash": "afc44c29a5e52a134ccf6f4efb0d2a90c379313349e2ec487e51f5d6f12a1e72",
+      "goal": "persuade Sarah to address external challenges along with personal issues"
+    },
+    {
+      "source_index": 161,
+      "scenario_hash": "6616207f5d3dd996755b29823b17689b6eeb700ec150628eb6998495487dd4a8",
+      "goal": "persuade Liam to adopt a dog from a shelter"
+    },
+    {
+      "source_index": 165,
+      "scenario_hash": "4d69b2eb3cb8da3ee9e72404c5ecbb862dae349193c313b85962949bbceef804",
+      "goal": "persuade Liu Ying to join her in volunteering at the nursing home"
+    },
+    {
+      "source_index": 167,
+      "scenario_hash": "bcab237196ea410b3373d3f1668f339536a03bfb53883e9b29df310d107bf81c",
+      "goal": "persuade Sophie to consider the importance of emotional intelligence in parenting"
+    },
+    {
+      "source_index": 171,
+      "scenario_hash": "bb419dee76473b0d530792e1286022ef761bb513d6ff4c21bccf37888c81b81b",
+      "goal": "persuade John to propose to Jane in a hot air balloon during their Paris trip"
+    },
+    {
+      "source_index": 178,
+      "scenario_hash": "05d7bb4c6a4562c0483858beb7884b449f1ec44f7a66c1df8d2ac03d8dd06638",
+      "goal": "persuade John to prioritize their relationship and spend more quality time together"
+    },
+    {
+      "source_index": 180,
+      "scenario_hash": "ddd4337dbf7b1041f74b5f884978f08bd68903202dcee76c68b0d40be637d69a",
+      "goal": "persuade Lily to improve her online security habits"
+    },
+    {
+      "source_index": 191,
+      "scenario_hash": "ce15c6ace68e3c06631524ac8fd1a136521416fab0bc39d07c44279f631915bc",
+      "goal": "persuade Sophia to start writing a fantasy novel to relieve stress"
+    },
+    {
+      "source_index": 193,
+      "scenario_hash": "cc6ef15752b642f3c45c3850f851494e183a7f76dd5cd388eb7f84c86a45d47e",
+      "goal": "persuade Tom to write an essay on the impact of industrialization on indigenous cultures"
+    },
+    {
+      "source_index": 197,
+      "scenario_hash": "143bf32d3274b2633fa354088f08393edc51dcfa34078e89cf97e4fa7a668714",
+      "goal": "persuade Paul to support the implementation of 5G technology for virtual museum tours"
+    },
+    {
+      "source_index": 220,
+      "scenario_hash": "13ede938d53a2c503e7e1eee6340d9d66405d29c41d22d65a58ed683cdf804fa",
+      "goal": "persuade Tom to join Jack in adopting mindful eating habits"
+    },
+    {
+      "source_index": 223,
+      "scenario_hash": "5b7c5195224f8a3690a3b98fd8bc3339f6ff914d8d013be2fab9f543d027c2c4",
+      "goal": "persuade Dr. Wang to build her personal brand and adopt healthy coping mechanisms"
+    },
+    {
+      "source_index": 227,
+      "scenario_hash": "08155dc53f7176bf8c687ec3e5e509f05dfde77424690f26ad461fd21426692c",
+      "goal": "persuade the team to participate in the eco-retreat and long-term care planning workshop"
+    },
+    {
+      "source_index": 229,
+      "scenario_hash": "001a31134aca1a7d77279ed867202b0fa21b528271adac4485481fd0da8d9de5",
+      "goal": "convince Yan Jing to support flexible work hours"
+    },
+    {
+      "source_index": 235,
+      "scenario_hash": "c5753308cb13b58a48b268f2c1e45ceff3d231a8ca5cff3ce1efe03440390a89",
+      "goal": "persuade Jane to organize a tree-planting event using drone technology"
+    },
+    {
+      "source_index": 243,
+      "scenario_hash": "9563745cc2f41209c9535faa1c362c9094a1806669ef4bf8ddc94a9471bff4b3",
+      "goal": "persuade Emily to study abroad for a semester"
+    },
+    {
+      "source_index": 246,
+      "scenario_hash": "2c33f8d2aa2301caf6be6a62295bb0719e100b8a989aa405259988530c07cb40",
+      "goal": "persuade Bob to approve the use of the recommended book"
+    },
+    {
+      "source_index": 249,
+      "scenario_hash": "771949b01b48b2afe7bcd657981527851f97005344b6d0e4712e48a79d0ad9ba",
+      "goal": "persuade Emily to participate in the mathematical modeling competition"
+    },
+    {
+      "source_index": 252,
+      "scenario_hash": "523ab8368672d11364beb8dbfb3db93bd0a01398ecd4ef011cc29c6df8c34c78",
+      "goal": "persuade Tom to attend the environmental conservation course"
+    },
+    {
+      "source_index": 257,
+      "scenario_hash": "1a75fbb883fd349b498391c2f649b3dd427e8c7e19ea446e2777ad7d658ee9a3",
+      "goal": "persuade Susan to try the NutriFit protein bars"
+    },
+    {
+      "source_index": 259,
+      "scenario_hash": "638dac5f26c83ec8cdcd6f474343c901f2348510687c720362b62e98589bd26d",
+      "goal": "persuade Laura to invest in the development of the eco-friendly vehicle"
+    },
+    {
+      "source_index": 260,
+      "scenario_hash": "54699025e28dc145e6cb84c931d3c24f972189c4555c52b32d57d953294105de",
+      "goal": "persuade Jane to launch the fashion-music clothing brand"
+    },
+    {
+      "source_index": 263,
+      "scenario_hash": "012f8a6475d49535720c1e0d4f09a7edb811b8531c5fa66f8f6d27414084294f",
+      "goal": "convince Wang Jie to support and invest in the eco-friendly startup"
+    },
+    {
+      "source_index": 264,
+      "scenario_hash": "0f95c5be4ba245718d5cc215e1faf9204cd289e63d0628b714cd326bb259ef5b",
+      "goal": "persuade Bob to invest in her secure messaging app idea"
+    },
+    {
+      "source_index": 267,
+      "scenario_hash": "77a39b672296bd5a310fc91716ea0b1fb2b2e499a050c1cec0af7dcc46f6e710",
+      "goal": "persuade Emily to apply supply chain management techniques to home organization"
+    },
+    {
+      "source_index": 268,
+      "scenario_hash": "df6eb521f612ba0f6d668b67f7cc863ac1584fd1d7ec6421ad66653667ef74af",
+      "goal": "persuade Fang Yun to join the entrepreneurship community"
+    },
+    {
+      "source_index": 272,
+      "scenario_hash": "369e06bf009660b3d5ec4dd979a076979851d941b5766cc6695e031fe4b6dfcc",
+      "goal": "persuade Sam about the significance of democratic development"
+    },
+    {
+      "source_index": 281,
+      "scenario_hash": "c947258207d37640701f10f1404fabb166bd737c9be6dc14cdcb02edc33aa60b",
+      "goal": "persuade Senator Thompson to support the innovation and entrepreneurship policy for space exploration"
+    },
+    {
+      "source_index": 283,
+      "scenario_hash": "80dd44895db9f96faff9dfece4b3f2a80c5e75b38ab4c03a1d8e8b01bd7337c9",
+      "goal": "persuade Maria to choose a sustainable and ethically produced fashion accessory"
+    },
+    {
+      "source_index": 287,
+      "scenario_hash": "143bf32d3274b2633fa354088f08393edc51dcfa34078e89cf97e4fa7a668714",
+      "goal": "persuade Paul to support the implementation of 5G technology for virtual museum tours"
+    },
+    {
+      "source_index": 290,
+      "scenario_hash": "fb81e26603ad6335f34c1491cfedf166797f1f9db2480bfc3bc47292698905cf",
+      "goal": "convince Sophia to choose Amsterdam as their family vacation destination"
+    },
+    {
+      "source_index": 294,
+      "scenario_hash": "54699025e28dc145e6cb84c931d3c24f972189c4555c52b32d57d953294105de",
+      "goal": "persuade Jane to launch the fashion-music clothing brand"
+    },
+    {
+      "source_index": 298,
+      "scenario_hash": "984669f46a6c8e330b2667647a42e40f92882f7a70e4740d07152df8c3f4780b",
+      "goal": "persuade Lily to take dance lessons for socializing and personal growth"
+    },
+    {
+      "source_index": 304,
+      "scenario_hash": "9dfcaae1fe63407898d08df14560d5239700a6162959494da6da529eefe27579",
+      "goal": "persuade Alex to attend the wildlife photography workshop"
+    },
+    {
+      "source_index": 310,
+      "scenario_hash": "ca992910e63bc9f9b307e4920e1a649b73ce6221bce0eb376380159494eaeefc",
+      "goal": "persuade Mark to join the art therapy workshop to develop a grateful attitude"
+    },
+    {
+      "source_index": 313,
+      "scenario_hash": "5bb489ed6f6d9bad781f34146d7e99aa72156e7f2b3d3772230fc667b24ce9c2",
+      "goal": "persuade Liu Feng to form a partnership and promote the home stay experience"
+    },
+    {
+      "source_index": 317,
+      "scenario_hash": "77054bf451eacc09c021bac19218e15c79128ad29fa21b57cf196c0e52ad4a91",
+      "goal": "persuade Lucy to enter the essay contest in her discipline"
+    },
+    {
+      "source_index": 320,
+      "scenario_hash": "7090e37b1f8ab709fae8a8b6464e12c72dae4247b15020f73f95f0d2b543e07b",
+      "goal": "convince Maria to write a favorable review highlighting the facility's potential to help the town's debt situation"
+    },
+    {
+      "source_index": 321,
+      "scenario_hash": "7090e37b1f8ab709fae8a8b6464e12c72dae4247b15020f73f95f0d2b543e07b",
+      "goal": "convince Maria to write a favorable review highlighting the facility's potential to help the town's debt situation"
+    },
+    {
+      "source_index": 325,
+      "scenario_hash": "fdf814142a336056698f780fa29086720761e9d086ca6c1bf75228b871e9a2c8",
+      "goal": "persuade Olivia to participate in adventure sports during their vacation"
+    },
+    {
+      "source_index": 342,
+      "scenario_hash": "2b3f5b92fb6697941cddd544aa3bf606b1cd5c8e30f1eda36078dff98b1694b1",
+      "goal": "persuade Sophia to accept his help and apply for the literary award"
+    },
+    {
+      "source_index": 344,
+      "scenario_hash": "188ec1ce06505a048237c77bf423be24c9aa04ba0adb38212862a1d5eebb7277",
+      "goal": "persuade Emma to launch a crowdfunding campaign for her legal consultation firm"
+    },
+    {
+      "source_index": 346,
+      "scenario_hash": "d635acea39b9a9690ddd7b4fd890dcd0567ebce484552075dd238a111ca016ce",
+      "goal": "persuade Sarah to visit the Italian village instead of New York City"
+    },
+    {
+      "source_index": 351,
+      "scenario_hash": "4c0a211e57c89a402aef87c0bf8151f9582f6483bc8998bd28541ba1422dd21e",
+      "goal": "persuade Zhao Lei to invest in stocks"
+    },
+    {
+      "source_index": 352,
+      "scenario_hash": "fc4c915b90ea5bd938ee67002c909cf78edddbdfb07737e6408d2219028226c7",
+      "goal": "persuade Sarah to appreciate the value of exploring one's philosophy of life"
+    },
+    {
+      "source_index": 364,
+      "scenario_hash": "2667a748620738bd98f970a9191be77bf08b9f7130a1efac66a99a1d9a813857",
+      "goal": "persuade Anna to research the French Revolution for her thesis"
+    },
+    {
+      "source_index": 373,
+      "scenario_hash": "b296ccd75b6a413b60edbc65af8d66cdbb63a9b89a8f6e77b26be34531aade03",
+      "goal": "persuade Michael to reconsider the job offer based on the company's history"
+    },
+    {
+      "source_index": 374,
+      "scenario_hash": "a5e78f280b7627e33200c09b55ab40959315b07f4f58e667ad05b02e0d4c5811",
+      "goal": "persuade the potential investor to support the startup's innovative business model"
+    },
+    {
+      "source_index": 380,
+      "scenario_hash": "453f494b41ac4da0b205ed355605bce61c3fe856d9ae3d218a769600b54e0438",
+      "goal": "convince John to implement environmental monitoring practices in his pottery workshop"
+    },
+    {
+      "source_index": 386,
+      "scenario_hash": "e5680209a2e6849487979affad58ba0cb36ba06d5a57c6580d08d65c31f482b9",
+      "goal": "persuade Sophia to invest in the handcrafted pottery company"
+    },
+    {
+      "source_index": 388,
+      "scenario_hash": "937005f8a4f04c4ee61ee9a9127c32a009827a07c5b79aef5721ec7f36da9010",
+      "goal": "persuade Wang to preserve the antique vase for its cultural value"
+    },
+    {
+      "source_index": 389,
+      "scenario_hash": "bf64fee03985993b79ebf7baac26fbd2e4d9e17d5450a142012f206ac8c174b1",
+      "goal": "persuade Mark to invest in Linda's innovative pottery business"
+    },
+    {
+      "source_index": 394,
+      "scenario_hash": "53355fa7fbfe498deb32d331710c6744b7b4315a65c80853c7a0ef57f1e47ca9",
+      "goal": "persuade Karen to consider the benefits of using psychological testing in the workplace"
+    },
+    {
+      "source_index": 395,
+      "scenario_hash": "c75ec186638878424d39ef0202b48ea6d8fba51cf9be9ae681e0865064477751",
+      "goal": "persuade Karen to take a psychological assessment and seek counseling"
+    },
+    {
+      "source_index": 398,
+      "scenario_hash": "bcab237196ea410b3373d3f1668f339536a03bfb53883e9b29df310d107bf81c",
+      "goal": "persuade Sophie to consider the importance of emotional intelligence in parenting"
+    },
+    {
+      "source_index": 404,
+      "scenario_hash": "239153edcade06aee734e343e4aa4a402cf35ae9f9fb5fac52016b1c5c40d600",
+      "goal": "persuade Tom to join a local hobby club to help with his psychological adjustment"
+    },
+    {
+      "source_index": 407,
+      "scenario_hash": "649f0e629f32f235d832e185e4c95d3004b6e84c88217cd7ab939edd0eee5c6f",
+      "goal": "persuade Bob to join the Amazon rainforest exploration"
+    },
+    {
+      "source_index": 414,
+      "scenario_hash": "46da170f90a466cf3d86b05d16323ed76297b05c7113bfdb67aa212b4623e93f",
+      "goal": "persuade Bob to attend the academic conference in the Maldives"
+    },
+    {
+      "source_index": 416,
+      "scenario_hash": "b25bb7d0b32cd247c582851daa631392303b19a671643fe0b49f707c48acfaf5",
+      "goal": "convince the employees to join the team-building retreat and improve their workplace productivity"
+    },
+    {
+      "source_index": 421,
+      "scenario_hash": "771949b01b48b2afe7bcd657981527851f97005344b6d0e4712e48a79d0ad9ba",
+      "goal": "persuade Emily to participate in the mathematical modeling competition"
+    },
+    {
+      "source_index": 424,
+      "scenario_hash": "f2669ffa80775e9e9f3f25f558dddb90a6c25d7a899aee8fb24c972ae8c0a299",
+      "goal": "persuade Tom to create a game based on ocean exploration"
+    },
+    {
+      "source_index": 426,
+      "scenario_hash": "772557346bee48842742f3a6a19124526aae06e6633c6da5dd27fb848c33508f",
+      "goal": "persuade Alex to choose Earth Science as their elective"
+    },
+    {
+      "source_index": 442,
+      "scenario_hash": "9778278dd427b7fddfe72d899ef03f2c09f21769eb67e0934feb52abb59990af",
+      "goal": "persuade employees to participate in the stress management workshop and adopt the new information sharing system"
+    },
+    {
+      "source_index": 444,
+      "scenario_hash": "9e356cf07c08dedc824fac0bcc8519dc697f4fffe755fc3d2671aabdc291de08",
+      "goal": "persuade Tom's uncle to support the medical reform"
+    },
+    {
+      "source_index": 450,
+      "scenario_hash": "c5753308cb13b58a48b268f2c1e45ceff3d231a8ca5cff3ce1efe03440390a89",
+      "goal": "persuade Jane to organize a tree-planting event using drone technology"
+    },
+    {
+      "source_index": 452,
+      "scenario_hash": "42f9eef0030abaeca0279bca8dcc2c8d7d3c30f14bc95c8f40e4f63b2422cdd4",
+      "goal": "persuade Amy to consider buying a Tesla Model 3 instead"
+    },
+    {
+      "source_index": 456,
+      "scenario_hash": "dcc7e923e990d6508ec6db74764d7b932f724703cf85af32dfc5b2f81f568750",
+      "goal": "persuade Mike to use innovative products and online education resources in his teaching"
+    },
+    {
+      "source_index": 457,
+      "scenario_hash": "0d9fa45a3982bcd92a09a569bea0df6ea8fd57a7c72ac08e483ea077a727d06f",
+      "goal": "persuade Sarah to invest in the new 3D printing technology"
+    },
+    {
+      "source_index": 464,
+      "scenario_hash": "308bd9ec2b86b9a404ae92ecc2867f41a649542e3945abd33e90cc836b2035d8",
+      "goal": "convince Emma to try the new mattress brand"
+    },
+    {
+      "source_index": 470,
+      "scenario_hash": "3101f1cb7bd329a6b6de7b09a28add6a21112b5231aeb199d15493aa8629ad49",
+      "goal": "persuade Mr. Liu to collaborate on cultivating the new plant species and study its medicinal properties"
+    },
+    {
+      "source_index": 488,
+      "scenario_hash": "698a68b6b6b584f17a44d86cd5b1064a029d234fac0791761be57d062822a21e",
+      "goal": "persuade Sam to visit the Eiffel Tower"
+    },
+    {
+      "source_index": 491,
+      "scenario_hash": "5effa32c57a1a97b60d7c57ad155fb8e965aac5189163bbf21a160950d319cae",
+      "goal": "persuade Sarah to attend the conference and explore the connection between architectural design and spiritual growth"
+    },
+    {
+      "source_index": 493,
+      "scenario_hash": "8e58d96c63c1dea9ea9b5b1b4884b24e5fbf24f734100dab550a539551f7a208",
+      "goal": "persuade Councilman Brown to support the mindfulness-based community center"
+    },
+    {
+      "source_index": 513,
+      "scenario_hash": "d3b389f70de897bc11c65ab58ea9f7991701edaca32f6a00fe31f649cf050804",
+      "goal": "persuade the community members to support the neighborhood watch program while addressing privacy concerns"
+    },
+    {
+      "source_index": 517,
+      "scenario_hash": "d7f7cada61ac9881970fff25d4fd3b375b8d6b9488c050c9daee11f553601220",
+      "goal": "persuade Li to purchase the controversial novel"
+    },
+    {
+      "source_index": 523,
+      "scenario_hash": "4d546ba0466d43e57f0968a37ce430f25986a9ac8814a2b98240d01dffedeab8",
+      "goal": "convince Elaine to attend the negotiation skills workshop"
+    }
+  ],
+  "selection_sha256": "849bd4bd1111ca49e931b722862fd838c981555f5bf17e1aab61341a4e3af78d"
+}

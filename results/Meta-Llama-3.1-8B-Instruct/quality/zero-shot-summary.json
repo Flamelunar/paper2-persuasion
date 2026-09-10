@@ -1,0 +1,13 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "method": "Zero-shot",
+  "judge_model": "gpt-5.6-luna",
+  "prompt_version": "zero_shot_joint_quality_v3",
+  "requested_n": 525,
+  "n": 525,
+  "acr_percent": 26.666666666666668,
+  "unf_percent": 81.71428571428571,
+  "contextual_groundedness_percent": 61.0,
+  "goal_drift_count": 74,
+  "goal_drift_rate_percent": 14.095238095238095
+}

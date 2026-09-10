@@ -1,0 +1,42 @@
+{
+  "dev_round_distribution": {
+    "3": 213,
+    "4": 374
+  },
+  "dev_scenarios": 587,
+  "dev_turn_samples": 2135,
+  "duplicate_non_eval_public_scenarios": 0,
+  "eval_overlap_after_filter": 0,
+  "eval_path": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/dataset/CToMPersu_Eval/CToMPersu_Eval.json",
+  "eval_rows": 525,
+  "eval_rows_present_exactly_in_full": 525,
+  "eval_unique_public_scenarios": 391,
+  "eval_unique_records": 391,
+  "excluded_full_rows": 391,
+  "full_path": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/dataset/CToMPersu_Full/CToMPersu.json",
+  "full_rows": 6257,
+  "full_unique_records": 6257,
+  "private_fields_excluded": [
+    "preventive",
+    "generative",
+    "persona"
+  ],
+  "public_key_fields": [
+    "tag",
+    "background",
+    "persuadee",
+    "persuader",
+    "goal",
+    "domain"
+  ],
+  "retained_scenarios": 5866,
+  "seed": 42,
+  "total_turn_samples": 21344,
+  "train_ratio": 0.9,
+  "train_round_distribution": {
+    "3": 1907,
+    "4": 3372
+  },
+  "train_scenarios": 5279,
+  "train_turn_samples": 19209
+}

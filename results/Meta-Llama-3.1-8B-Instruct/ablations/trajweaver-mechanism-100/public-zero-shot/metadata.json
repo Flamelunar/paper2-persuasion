@@ -1,0 +1,10 @@
+{
+  "variant": "public-zero-shot",
+  "source_method": "Zero-shot",
+  "source_raw": "/home1/liujianjian/2-paper-Coling-v2/results/Meta-Llama-3.1-8B-Instruct/raw/zero-shot.jsonl",
+  "source_quality": "/home1/liujianjian/2-paper-Coling-v2/results/Meta-Llama-3.1-8B-Instruct/quality/zero-shot.jsonl",
+  "manifest": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/ablations/manifests/eval100_seed20260910.json",
+  "selection_sha256": "849bd4bd1111ca49e931b722862fd838c981555f5bf17e1aab61341a4e3af78d",
+  "n": 100,
+  "recomputed": false
+}

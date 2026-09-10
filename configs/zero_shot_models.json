@@ -1,0 +1,20 @@
+{
+  "models": [
+    {"index": 0, "name": "gemma-4-E4B-it", "path": "/data1/liujianjian/model/gemma-4-E4B-it"},
+    {"index": 1, "name": "Meta-Llama-3.1-8B-Instruct", "path": "/data1/liujianjian/model/Meta-Llama-3.1-8B-Instruct"},
+    {"index": 2, "name": "Ministral-3-8B-Instruct-2512", "path": "/data1/liujianjian/model/Ministral-3-8B-Instruct-2512"},
+    {"index": 3, "name": "Qwen2.5-7B-Instruct", "path": "/data1/liujianjian/model/Qwen2.5-7B-Instruct"},
+    {"index": 4, "name": "Qwen3.5-9B", "path": "/data1/liujianjian/model/Qwen3.5-9B"}
+  ],
+  "conditions": ["Zero-shot", "MA2P"],
+  "tasks": ["CToMPersu_Eval"],
+  "protocol": {
+    "dataset_size": 525,
+    "max_turns": 4,
+    "simulator_model": "gpt-4o-mini",
+    "judge_model": "gpt-5.6-luna",
+    "ma2p_knowledge_base": "K=0/no-kb (no offline warm-up counts)",
+    "paper_metrics": ["Success", "Persuasive", "Logic", "Helpful", "Range", "SD", "Avg_Turn"],
+    "allowed_physical_gpus": [0, 1]
+  }
+}

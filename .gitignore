@@ -1,0 +1,28 @@
+# Local models, checkpoints, and generated training artifacts
+train/TrajWeaver-v1/checkpoints/
+**/*.pt
+**/*.pth
+**/*.bin
+**/*.safetensors
+**/*.ckpt
+
+# Runtime/cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+*.log
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Nested upstream git metadata
+data/CToMPersu/.git/
+
+# Temporary Codex batch requests/responses are not part of the reproducible dataset
+train/TrajWeaver-v1/data/terra/codex_batches*/

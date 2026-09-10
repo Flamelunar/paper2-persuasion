@@ -1,0 +1,13 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "method": "TrajWeaver-v1",
+  "judge_model": "gpt-5.6-luna",
+  "prompt_version": "zero_shot_joint_quality_v3",
+  "requested_n": 525,
+  "n": 525,
+  "acr_percent": 26.285714285714285,
+  "unf_percent": 75.19047619047619,
+  "contextual_groundedness_percent": 60.142857142857146,
+  "goal_drift_count": 42,
+  "goal_drift_rate_percent": 8.0
+}

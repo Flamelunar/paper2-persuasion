@@ -1,0 +1,16 @@
+{
+  "schema_version": "trajweaver_ablation_quality_v1",
+  "variant": "g8bd8-always",
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "judge_model": "gpt-5.6-luna",
+  "prompt_version": "zero_shot_joint_quality_v3",
+  "manifest": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v1/ablations/manifests/eval100_seed20260910.json",
+  "selection_sha256": "849bd4bd1111ca49e931b722862fd838c981555f5bf17e1aab61341a4e3af78d",
+  "requested_n": 100,
+  "n": 100,
+  "acr_percent": 18.0,
+  "unf_percent": 76.75,
+  "contextual_groundedness_percent": 59.25,
+  "goal_drift_count": 7,
+  "goal_drift_rate_percent": 7.0
+}
