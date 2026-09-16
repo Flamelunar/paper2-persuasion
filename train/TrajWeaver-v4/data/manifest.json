@@ -1,0 +1,83 @@
+{
+  "schema": "trajweaver_v4_public_data_v1",
+  "created_on": "2026-09-16",
+  "datasets": [
+    {
+      "name": "CToMPersu-mysplit",
+      "status": "project_shared_reference",
+      "path": "../../../data/CToMPersu/mysplit",
+      "license": "see upstream CToMPersu release",
+      "counts": {
+        "train": 5341,
+        "dev": 525,
+        "test": 525,
+        "unique_test_public_scenarios": 391
+      },
+      "intended_use": ["primary_sft", "rollout", "final_evaluation"]
+    },
+    {
+      "name": "PersuasionForGood",
+      "status": "downloaded",
+      "source": "https://github.com/ohyj1002/persuasionforgood",
+      "commit": "3fbc0df7bd2a081413cad6e6092e7c712efc26c4",
+      "license": "Apache-2.0",
+      "path": "raw/persuasion_for_good",
+      "files": 10,
+      "bytes": 4186811,
+      "tree_sha256": "b237509121adc06306c99200e30bde950bfee8991615ff215f06f0bc54ef2152",
+      "observed_counts": {
+        "dialogues": 1017,
+        "full_dialog_sentence_units": 20932,
+        "participant_role_rows": 2034,
+        "annotated_dialogues": 300
+      },
+      "intended_use": ["human_persuasion_language", "strategy_supervision", "outcome_analysis"]
+    },
+    {
+      "name": "CaSiNo",
+      "status": "downloaded",
+      "source": "https://github.com/kushalchawla/CaSiNo",
+      "commit": "2f6ed4a6a55110152a7699fbaa8150d6036314be",
+      "license": "CC-BY-4.0",
+      "path": "raw/casino",
+      "files": 8,
+      "bytes": 8622466,
+      "tree_sha256": "fbf078ef3c91ffb6238a78557468a2937e808666f15e49c1a50ab611803fc913",
+      "observed_counts": {
+        "dialogues": 1030,
+        "train": 900,
+        "valid": 30,
+        "test": 100
+      },
+      "intended_use": ["desire_supervision", "preference_grounding", "strategy_auxiliary"]
+    },
+    {
+      "name": "PersuasionTrace-human-target",
+      "status": "downloaded",
+      "source": "https://github.com/jlcmoore/persuasiontrace",
+      "commit": "d05007fbe21f385583bd3e74667c7cd9da474b4f",
+      "license": "MIT",
+      "path": "raw/persuasiontrace",
+      "files": 18,
+      "bytes": 13480867,
+      "tree_sha256": "4c6ad63aeab591645715f5a77e70c4c8d0d81f6e493d7244704f7020f3f1f45e",
+      "observed_counts": {
+        "result_files": 15,
+        "rounds": 450,
+        "rounds_with_serial_beliefs": 432,
+        "serial_belief_measurements": 1317
+      },
+      "intended_use": ["belief_trajectory_evaluation", "calibration", "trigger_stress_test"]
+    }
+  ],
+  "unavailable_candidates": [
+    {
+      "name": "ToMELP",
+      "reason": "public repository has README and license only"
+    },
+    {
+      "name": "DailyPersuasion",
+      "reason": "no authoritative public release verified"
+    }
+  ]
+}

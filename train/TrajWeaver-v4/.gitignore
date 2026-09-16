@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.log
+.pytest_cache/
+runs/*/checkpoints/
+artifacts/tmp/
