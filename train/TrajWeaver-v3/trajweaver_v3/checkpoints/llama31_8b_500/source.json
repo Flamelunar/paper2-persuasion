@@ -1,0 +1,11 @@
+{
+  "run_dir": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/runs/llama31_8b_500_subset200",
+  "weaver_checkpoint": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/runs/llama31_8b_500_subset200/weaver/sft-epoch-2",
+  "trigger_checkpoint": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/runs/llama31_8b_500_subset200/trigger/best.json",
+  "selected_checkpoint": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/trajweaver_v3/checkpoints/llama31_8b_500",
+  "selection": "minimum dev_utility_regret then dev_loss",
+  "train_scenarios": 200,
+  "dev_scenarios": 50,
+  "utility_prefixes": {"train": 200, "dev": 50},
+  "planner_prefix_type": "concern"
+}

@@ -1,0 +1,22 @@
+{
+  "train": {
+    "prefixes": 200,
+    "usable": 194,
+    "labels": {
+      "INVOKE": 146,
+      "SKIP": 48
+    },
+    "mean_gain": 0.03696944415569305,
+    "selection_source": "planner:concern"
+  },
+  "dev": {
+    "prefixes": 50,
+    "usable": 49,
+    "labels": {
+      "SKIP": 15,
+      "INVOKE": 34
+    },
+    "mean_gain": 0.0291806697845459,
+    "selection_source": "planner:concern"
+  }
+}

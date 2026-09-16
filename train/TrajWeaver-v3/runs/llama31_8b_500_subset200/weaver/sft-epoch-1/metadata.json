@@ -1,0 +1,9 @@
+{
+  "stage": "sft",
+  "epoch": 1,
+  "train_loss": 1.3063532365167516,
+  "dev_loss": 1.1300136833577543,
+  "trigger_trained": false,
+  "utility_provenance": null,
+  "selection_metric": "dev_loss"
+}

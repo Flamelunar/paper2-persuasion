@@ -1,0 +1,66 @@
+{
+  "schema": "v3_paired_reference_nll",
+  "config": {
+    "model": {
+      "name_or_path": "/data1/liujianjian/model/Meta-Llama-3.1-8B-Instruct",
+      "load_in_4bit": true,
+      "device_map": "auto"
+    },
+    "architecture": {
+      "goal_tokens": 8,
+      "state_tokens": 8,
+      "trigger_hidden": 128
+    },
+    "lora": {
+      "rank": 16,
+      "alpha": 32,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "data": {
+      "max_goal_tokens": 512,
+      "max_prompt_tokens": 4096,
+      "max_target_tokens": 512
+    },
+    "training": {
+      "seed": 42,
+      "sft": {
+        "epochs": 2,
+        "gradient_accumulation": 16,
+        "learning_rate": 1e-05,
+        "goal_only_weight": 0.25
+      },
+      "trigger": {
+        "epochs": 3,
+        "gradient_accumulation": 16,
+        "learning_rate": 0.0001
+      }
+    },
+    "utility": {
+      "cost": 0.01,
+      "margin": 0.002
+    }
+  },
+  "checkpoint_sha256": "f98a7d81e86c031c6a0bcbca8e6b6678691188866d16a61aee145cd94433db44",
+  "checkpoint": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/runs/llama31_8b_500_subset200/weaver/sft-epoch-2",
+  "seed": 42,
+  "train_prefixes": 200,
+  "dev_prefixes": 50,
+  "planner_data": "/home1/liujianjian/2-paper-Coling-v2/train/TrajWeaver-v3/artifacts",
+  "planner_prefix_type": "concern",
+  "planner_sha256": {
+    "train": "712eef11920c2b9e1aa8c814a403cbd36d4a9f1a393701d438896cf08a1c7d99",
+    "dev": "805e182c6b62c39c13df70703ee568c6af272386082343ea6889b5f0be056bd8"
+  },
+  "data_sha256": {
+    "train": "d0d9d96670c7164be6ebf6873cd615beb421b5262f5a61e72e36b738217dc7d2",
+    "dev": "a3fe324238c0e7eba24b13463de1931836dbfde09f76be4d010fb6aef8141c3a"
+  }
+}

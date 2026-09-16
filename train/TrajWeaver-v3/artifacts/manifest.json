@@ -1,0 +1,30 @@
+{
+  "schema": "planner_concern_annotation_v1",
+  "model": "gpt-5.6-luna",
+  "source": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/mysplit",
+  "source_public_fields": [
+    "tag",
+    "background",
+    "persuadee",
+    "persuader",
+    "goal",
+    "domain"
+  ],
+  "seed": 42,
+  "train_scenarios": 200,
+  "dev_scenarios": 50,
+  "expected_annotations": 500,
+  "batch_size_scenarios": 10,
+  "planned_batches": 25,
+  "max_input_chars": 48000,
+  "batch_policy": "one request returns initial+concern for each source scenario",
+  "hidden_fields_excluded": [
+    "preventive",
+    "generative",
+    "persona"
+  ],
+  "source_sha256": {
+    "train": "8f947529ca1cca7d2d80bb0a2c0007669ae10988d59280122a8e39af489c30ac",
+    "dev": "f4053a62446184d58bbda0ffc7721c4ea1b70a63f4e112ff2ed1ae1785083ed9"
+  }
+}

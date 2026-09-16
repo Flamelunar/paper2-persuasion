@@ -1,0 +1,39 @@
+{
+  "method": "TrajWeaver-v3",
+  "source": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/mysplit",
+  "public_fields": [
+    "tag",
+    "background",
+    "persuadee",
+    "persuader",
+    "goal",
+    "domain"
+  ],
+  "splits": {
+    "train": {
+      "source_rows": 5341,
+      "unique_scenarios": 5341,
+      "turn_samples": 19434,
+      "duplicates_removed": 0,
+      "fragment_repaired_scenarios": 278,
+      "source_sha256": "8f947529ca1cca7d2d80bb0a2c0007669ae10988d59280122a8e39af489c30ac"
+    },
+    "dev": {
+      "source_rows": 525,
+      "unique_scenarios": 525,
+      "turn_samples": 1910,
+      "duplicates_removed": 0,
+      "fragment_repaired_scenarios": 33,
+      "source_sha256": "f4053a62446184d58bbda0ffc7721c4ea1b70a63f4e112ff2ed1ae1785083ed9"
+    },
+    "test": {
+      "source_rows": 525,
+      "unique_scenarios": 391,
+      "turn_samples": 1395,
+      "duplicates_removed": 134,
+      "fragment_repaired_scenarios": 16,
+      "source_sha256": "e2b6db6fa25c1ec1c64e405847e38f4503a5f2900c32adbf3365fa124d947bb5"
+    }
+  },
+  "policy": "preserve mysplit membership; deduplicate by public scenario"
+}

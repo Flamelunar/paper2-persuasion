@@ -1,0 +1,11 @@
+{
+  "validated_annotations": 500,
+  "expected_annotations": 500,
+  "missing_annotations": 0,
+  "by_split": {
+    "train": 400,
+    "dev": 100
+  },
+  "planned_batches": 25,
+  "processed_batches": 25
+}
