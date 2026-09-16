@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "source": {
+    "full": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/dataset/CToMPersu_Full/CToMPersu.json",
+    "eval": "/home1/liujianjian/2-paper-Coling-v2/data/CToMPersu/dataset/CToMPersu_Eval/CToMPersu_Eval.json"
+  },
+  "source_counts": {
+    "full": 6257,
+    "eval_test": 525
+  },
+  "unique_public_scenarios": {
+    "full": 6257,
+    "eval_test": 391,
+    "overlap": 391
+  },
+  "split_counts": {
+    "train": 5341,
+    "dev": 525,
+    "test": 525
+  },
+  "test_duplicate_rows": 134,
+  "turn_definition": "one persuader+persuadee pair equals one turn; split continuation strings are merged for statistics only",
+  "stratification": "primary domain and normalized 3/4-turn count"
+}
